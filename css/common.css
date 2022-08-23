@@ -1,0 +1,201 @@
+.wrapper{
+    margin: 0 auto;
+    width: 1240px;
+}
+/* 快捷导航 */
+.shortcut{
+    height: 52px;
+    background-color: rgba(51, 51, 51, 0.616);
+}
+
+.shortcut .wrapper ul{
+    float: right;
+}
+
+.shortcut .wrapper li{
+    float: left;
+    line-height: 52px;
+}
+
+.shortcut .wrapper a{
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.shortcut .wrapper a span{
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin-right: 8px;
+    background-image: url(../images/iphone.png);
+    background-size: cover;
+    vertical-align: middle;
+}
+/* 头部 */
+.header{
+    height: 70px;
+    margin: 30px auto;
+}
+
+.header .logo{
+    float: left;
+    width: 207px;
+    height: 70px;
+    margin-right: 40px;
+    line-height: 70px;
+}
+
+/* logo搜索引擎优化做法 */
+.header .logo h1{
+    width: 207px;
+    height: 70px;
+}
+
+.header .logo h1 a{
+    display: block;
+    width: 207px;
+    height: 70px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    font-size: 0;
+}
+
+.header .nav{
+    float: left;
+    height: 70px;
+}
+
+.header .nav li{
+    float: left;
+    margin-right: 48px;
+    line-height: 70px;
+}
+
+.header .nav a{
+    padding-bottom: 7px;
+}
+
+.header .nav a:hover{
+    border-bottom: 1px solid #27ba9b;
+    color: #27ba9b;
+}
+
+.header .search{
+    position: relative;
+    float: left;
+    width: 172px;
+    height: 30px;
+    margin-left: 34px;
+    margin-top: 34px;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.header .search input{
+    width: 172px;
+    height: 28px;
+    padding-left: 30px;
+}
+
+.header .search input::placeholder{
+    font-size: 14px;
+    color: #ccc;
+
+}
+
+.header .search span{
+    position: absolute;
+    display: inline-block;
+    left: 2px;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    background-image: url(../images/搜索.png);
+}
+
+.header .shoppingcar{
+    position: relative;
+    float: left;
+    height: 23px;
+    width: 23px;
+    margin-top: 28px;
+    margin-left: 15px;
+    background-image: url(../images/购物车空.png);
+    background-size: cover;
+}
+
+.header .shoppingcar span{
+    position: absolute;
+    right: -13px;
+    top: -6px;
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+}
+.footer{
+    background-color: #333;
+}
+.footer .wrapper{
+    width: 1392px;
+}
+
+.footer .wrapper .top{
+    padding-top: 60px;
+    padding-left: 135px;
+    height: 175px;
+    border-bottom: 3px solid #434343;
+}
+
+.footer .wrapper .top li{
+    float: left;
+    width: 195px;
+    height: 58px;
+    margin-right: 240px;
+    font-size: 24px;
+    color: #ccc;
+}
+
+.footer .wrapper .top li:last-child{
+    margin-right: 0;
+}
+
+.footer .wrapper .top li::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/3.1-价格.png);
+    background-size: cover;
+}
+
+.footer .wrapper .top li:nth-child(2)::before{
+    background-image: url(../images/质量保证.png);
+}
+
+.footer .wrapper .top li:last-child::before{
+    background-image: url(../images/运送管理.png);
+}
+
+.footer .wrapper .bottom{
+    padding: 40px 0;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.footer .wrapper .bottom p{
+    margin-bottom: 20px;
+}
+
+.footer .wrapper .bottom a{
+    font-size: 14px;
+    color: #999;
+}
